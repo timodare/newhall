@@ -4472,5 +4472,6 @@ figcaption {
     grid-area: 4 / 1 / 5 / 2;
   }
 }
-
-
+dl {
+  list-style-type: disc;
+}
