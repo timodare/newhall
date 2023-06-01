@@ -406,6 +406,24 @@ figcaption {
   position: relative;
 }
 
+.navigation-item-cus{
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  display: block;
+  position: relative;
+  text-align: center;
+  color: silver;
+}
+
+.navigation-item-cus:hover{
+  color: black;
+}
 
 .navigation-item:hover {
   opacity: 1;
@@ -461,7 +479,12 @@ figcaption {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 0px;
-  z-index: 10;
+  z-index: 2;
+}
+
+.navigation-item a {
+  position: relative;
+  z-index: 1;
 }
 
 .with-dropdown:hover .dropdown-content,
