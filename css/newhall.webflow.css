@@ -403,7 +403,9 @@ figcaption {
   font-weight: 500;
   line-height: 20px;
   display: block;
+  position: relative;
 }
+
 
 .navigation-item:hover {
   opacity: 1;
@@ -448,6 +450,36 @@ figcaption {
   justify-content: center;
   align-items: center;
   display: flex;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 0px;
+  z-index: 10;
+}
+
+.with-dropdown:hover .dropdown-content,
+.with-dropdown:focus-within .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: #333;
+  display: block;
+  padding: 8px 0;
+  text-decoration: none;
+  font-size: 12px;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
 }
 
 .footer-wrap {
