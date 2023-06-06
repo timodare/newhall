@@ -1776,34 +1776,60 @@ figcaption {
 
 .div-block-16 {
   width: 100%;
-  height: 420px;
+  /*height: 420px;*/
+  height: 900px;
   background-image: url('../images/samnew.png');
   background-position: 50% 0;
   background-size: cover;
 }
 
+.div-block-166 {
+  width: 100%;
+  height: 900px;
+  background-image: url('../images/samnew.png');
+  background-position: 50% 0;
+  background-size: cover;
+}
 .div-block-17 {
   width: 100%;
-  height: 420px;
+  /*height: 420px;*/
+  height: 900px;
   background-image: url('../images/mrsknew.png');
-  background-position: 0 0;
+  background-position: 50% 20%;
   background-size: cover;
 }
 
 .div-block-18 {
   width: 100%;
-  height: 420px;
+  /*height: 420px;*/
+  height: 900px;
   background-image: url('../images/timnew.png');
-  background-position: 50%;
+  background-position: 50% 20%;
   background-size: cover;
 }
 
 .div-block-19 {
-  height: 420px;
+  /*height: 420px;*/
+  height: 900px;
   background-image: url('../images/direectornewha-min-2.png');
-  background-position: 50%;
+  background-position: 50% 40%;
   background-size: cover;
 }
+
+
+.griddd {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* Styling for mobile devices */
+@media (max-width: 767px) {
+  .griddd {
+    grid-template-columns: 1fr;
+  }
+}
+
 
 .div-block-20, .div-block-21 {
   height: 420px;
