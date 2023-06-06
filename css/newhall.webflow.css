@@ -1688,6 +1688,15 @@ figcaption {
   align-items: center;
   display: flex;
 }
+.div-block-1160 {
+  height: 780px;
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/newservices.jpg');
+  background-position: 0 0, 50% 0;
+  background-size: auto, cover;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
 
 .div-block-14 {
   height: 480px;
@@ -1702,8 +1711,8 @@ figcaption {
 
 .div-block-15 {
   height: 480px;
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/WhatsApp-Image-2023-05-23-at-2.21.47-AM.jpeg');
-  background-position: 0 0, 50% 0;
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/newgalleryimage.jpeg');
+  background-position: 0 0, 50% 50%;
   background-size: auto, cover;
   justify-content: center;
   align-items: center;
@@ -1766,6 +1775,7 @@ figcaption {
 }
 
 .div-block-16 {
+  width: 100%;
   height: 420px;
   background-image: url('../images/direectornewha-min-1.png');
   background-position: 50% 0;
