@@ -476,9 +476,9 @@ figcaption {
   top: 100%;
   left: 0;
   background-color: #f9f9f9;
-  min-width: 160px;
+  min-width: max-content;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 0px;
+  padding: 12px 20px;
   z-index: 2;
 }
 
